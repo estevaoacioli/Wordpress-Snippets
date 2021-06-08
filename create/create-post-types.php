@@ -30,7 +30,7 @@ function create_post_type_name_cpt() {
 		'description'         => __( 'Post Type Name CPT', 'text-domain' ),
 		'labels'              => $labels,
 		'supports'            => array( 'title', 'author', 'editor' ), //  'title', 'editor', 'comments', 'revisions', 'trackbacks', 'author', 'excerpt', 'page-attributes', 'thumbnail', 'custom-fields', and 'post-formats'
-		'menu_icon' => 		 'dashicons-id',
+		'menu_icon' => 		 'dashicons-id', // https://developer.wordpress.org/resource/dashicons/#heart
 		'taxonomies'          => array( '' ),
 		'hierarchical'        => false,
 		'public'              => false,
